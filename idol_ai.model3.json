@@ -1,1 +1,39 @@
-{ "Version": 3, "FileReferences": { "Moc": "idol_ai.moc3", "Textures": ["textures/texture_00.png"] } }
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "idol_ai.moc3",
+    "Textures": ["textures/texture_00.png"],
+    "Physics": "physics/idol_ai.physics3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "Wave": [
+        {
+          "File": "motions/wave.motion3.json"
+        }
+      ],
+      "Heart": [
+        {
+          "File": "motions/heart_pose.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "Smile",
+        "File": "expressions/smile.exp3.json"
+      },
+      {
+        "Name": "Surprise",
+        "File": "expressions/surprise.exp3.json"
+      },
+      {
+        "Name": "Wink",
+        "File": "expressions/wink.exp3.json"
+      }
+    ]
+  }
+}
