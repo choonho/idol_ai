@@ -1,0 +1,30 @@
+{
+  "Version": 3,
+  "TextureGroups": [
+    {
+      "Name": "Base",
+      "Textures": [
+        {
+          "Name": "texture_00",
+          "File": "texture_00.png",
+          "Width": 2048,
+          "Height": 2048,
+          "Format": "RGBA8888",
+          "PremultiplyAlpha": true,
+          "MipMapCount": 0,
+          "IsCubemap": false
+        }
+      ]
+    }
+  ],
+  "TextureAtlas": {
+    "Width": 2048,
+    "Height": 2048,
+    "Margin": 0,
+    "Padding": 0,
+    "Format": "RGBA8888",
+    "PremultiplyAlpha": true,
+    "MipMapCount": 0,
+    "IsCubemap": false
+  }
+} 

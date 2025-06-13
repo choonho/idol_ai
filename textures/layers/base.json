@@ -1,0 +1,29 @@
+{
+  "Version": 3,
+  "Layers": [
+    {
+      "Name": "Background",
+      "File": "background.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "BaseFace",
+      "File": "base_face.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "BaseBody",
+      "File": "base_body.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    }
+  ]
+} 

@@ -1,0 +1,53 @@
+{
+  "Version": 3,
+  "Layers": [
+    {
+      "Name": "LeftEye",
+      "File": "left_eye.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "RightEye",
+      "File": "right_eye.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "LeftBrow",
+      "File": "left_brow.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "RightBrow",
+      "File": "right_brow.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "Mouth",
+      "File": "mouth.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "Nose",
+      "File": "nose.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    }
+  ]
+} 

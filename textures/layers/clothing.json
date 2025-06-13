@@ -1,0 +1,29 @@
+{
+  "Version": 3,
+  "Layers": [
+    {
+      "Name": "Top",
+      "File": "top.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "Bottom",
+      "File": "bottom.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    },
+    {
+      "Name": "Accessories",
+      "File": "accessories.png",
+      "Width": 2048,
+      "Height": 2048,
+      "Format": "RGBA8888",
+      "PremultiplyAlpha": true
+    }
+  ]
+} 
