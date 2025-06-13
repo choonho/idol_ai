@@ -7,17 +7,20 @@
     "Motions": {
       "Idle": [
         {
-          "File": "motions/idle.motion3.json"
+          "File": "motions/idle.motion3.json",
+          "Sound": "motions/idle.mp3"
         }
       ],
       "Wave": [
         {
-          "File": "motions/wave.motion3.json"
+          "File": "motions/wave.motion3.json",
+          "Sound": "motions/wave.mp3"
         }
       ],
       "Heart": [
         {
-          "File": "motions/heart_pose.motion3.json"
+          "File": "motions/heart_pose.motion3.json",
+          "Sound": "motions/heart.mp3"
         }
       ]
     },
@@ -35,5 +38,73 @@
         "File": "expressions/wink.exp3.json"
       }
     ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthForm",
+        "ParamMouthOpenY"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "Brow",
+      "Ids": [
+        "ParamBrowLY",
+        "ParamBrowRY"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "Body",
+      "Ids": [
+        "ParamAngleX",
+        "ParamAngleY",
+        "ParamAngleZ",
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "Hair",
+      "Ids": [
+        "ParamHairFront",
+        "ParamHairBack"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Name": "Head",
+      "Id": "HitAreaHead"
+    },
+    {
+      "Name": "Body",
+      "Id": "HitAreaBody"
+    }
+  ],
+  "Layout": {
+    "Width": 2.0,
+    "Height": 2.0,
+    "X": 0.0,
+    "Y": 0.0,
+    "CenterX": 0.0,
+    "CenterY": 0.0,
+    "Top": 1.0,
+    "Bottom": -1.0,
+    "Left": -1.0,
+    "Right": 1.0
   }
 }
