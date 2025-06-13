@@ -1,1 +1,82 @@
-{ "physics": "sample" }
+{
+  "Version": 3,
+  "Meta": {
+    "PhysicsSettingCount": 1,
+    "TotalInputCount": 2,
+    "TotalOutputCount": 2,
+    "VertexCount": 0,
+    "EffectiveForces": {
+      "Gravity": {
+        "X": 0.0,
+        "Y": -1.0
+      },
+      "Wind": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "PhysicsDictionary": [
+      {
+        "Id": "PhysicsHair",
+        "Name": "PhysicsHair",
+        "Input": [
+          {
+            "Source": {
+              "Target": "Parameter",
+              "Id": "ParamAngleX"
+            },
+            "Weight": 1.0,
+            "Type": "Angle",
+            "Reflect": false
+          },
+          {
+            "Source": {
+              "Target": "Parameter",
+              "Id": "ParamAngleY"
+            },
+            "Weight": 1.0,
+            "Type": "Angle",
+            "Reflect": false
+          }
+        ],
+        "Output": [
+          {
+            "Destination": {
+              "Target": "Parameter",
+              "Id": "ParamHairFront"
+            },
+            "VertexIndex": 0,
+            "Scale": 1.0,
+            "Weight": 1.0,
+            "Type": "Angle",
+            "Reflect": false
+          },
+          {
+            "Destination": {
+              "Target": "Parameter",
+              "Id": "ParamHairBack"
+            },
+            "VertexIndex": 0,
+            "Scale": 1.0,
+            "Weight": 1.0,
+            "Type": "Angle",
+            "Reflect": false
+          }
+        ],
+        "Vertices": [],
+        "Normalization": {
+          "Position": {
+            "Minimum": -90.0,
+            "Maximum": 90.0,
+            "Default": 0.0
+          },
+          "Angle": {
+            "Minimum": -90.0,
+            "Maximum": 90.0,
+            "Default": 0.0
+          }
+        }
+      }
+    ]
+  }
+}
