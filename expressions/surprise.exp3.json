@@ -1,1 +1,29 @@
-{ "expression": "surprise" }
+{
+  "Type": "Live2D Expression",
+  "Parameters": [
+    {
+      "Id": "ParamMouthForm",
+      "Value": 0.0
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "Value": 1.0
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "Value": 1.0
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "Value": 1.0
+    },
+    {
+      "Id": "ParamBrowLY",
+      "Value": 0.8
+    },
+    {
+      "Id": "ParamBrowRY",
+      "Value": 0.8
+    }
+  ]
+}

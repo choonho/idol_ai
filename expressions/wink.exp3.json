@@ -1,1 +1,29 @@
-{ "expression": "wink" }
+{
+  "Type": "Live2D Expression",
+  "Parameters": [
+    {
+      "Id": "ParamMouthForm",
+      "Value": 0.5
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "Value": 0.3
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "Value": 0.0
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "Value": 1.0
+    },
+    {
+      "Id": "ParamBrowLY",
+      "Value": 0.5
+    },
+    {
+      "Id": "ParamBrowRY",
+      "Value": 0.5
+    }
+  ]
+}
