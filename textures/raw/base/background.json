@@ -1,0 +1,21 @@
+{
+  "Version": 3,
+  "Texture": {
+    "Name": "Background",
+    "Width": 2048,
+    "Height": 2048,
+    "Format": "RGBA8888",
+    "PremultiplyAlpha": true,
+    "MipMapCount": 0,
+    "IsCubemap": false,
+    "Regions": [
+      {
+        "Name": "Background",
+        "X": 0,
+        "Y": 0,
+        "Width": 2048,
+        "Height": 2048
+      }
+    ]
+  }
+} 

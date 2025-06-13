@@ -1,0 +1,49 @@
+{
+  "Version": 3,
+  "Texture": {
+    "Name": "Hair",
+    "Width": 2048,
+    "Height": 2048,
+    "Format": "RGBA8888",
+    "PremultiplyAlpha": true,
+    "MipMapCount": 0,
+    "IsCubemap": false,
+    "Regions": [
+      {
+        "Name": "FrontHair",
+        "X": 0,
+        "Y": 0,
+        "Width": 1024,
+        "Height": 1024
+      },
+      {
+        "Name": "BackHair",
+        "X": 1024,
+        "Y": 0,
+        "Width": 1024,
+        "Height": 1024
+      },
+      {
+        "Name": "SideHairLeft",
+        "X": 0,
+        "Y": 1024,
+        "Width": 512,
+        "Height": 1024
+      },
+      {
+        "Name": "SideHairRight",
+        "X": 512,
+        "Y": 1024,
+        "Width": 512,
+        "Height": 1024
+      },
+      {
+        "Name": "HairAccessories",
+        "X": 1024,
+        "Y": 1024,
+        "Width": 1024,
+        "Height": 1024
+      }
+    ]
+  }
+} 
